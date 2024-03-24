@@ -1,0 +1,96 @@
+body {
+    background-color: #C5C4FF;
+    font-family: "Cutive Mono", monospace;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 70px;
+    /* margin-left: 30px; */
+}
+
+h1 {
+    font-size: 10rem;
+    /* margin-left: 6rem; */
+}
+
+p {
+    font-size: 50px;
+}
+
+.menu-icon {
+    position: absolute;
+    display: inline-block;
+    left: 25px;
+    top: 75px;
+    /* padding: 25px; */
+    font-size: 50px;
+}
+
+.menu-icon:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1em;
+    height: 0.15em;
+    margin-top: -0.075em;
+    background-color: black;
+    box-shadow:
+        0 0.25em 0 0 black,
+        0 0.5em 0 0 black;
+    border-radius: 0.15em / 0.5em;
+}
+
+.images {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: none;
+    height: auto;
+    width: 100%;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    margin-top: 1px;
+}
+
+.images {
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    transition: filter 0.3s;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.image.name {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+img.image:hover  {
+    filter: brightness(0.7);
+    cursor: pointer;
+}
+
+/* .image:hover .name {
+    opacity: 1;
+    cursor: pointer;
+} */
+
