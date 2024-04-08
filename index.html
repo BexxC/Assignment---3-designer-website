@@ -11,7 +11,7 @@
 <body style="background-color: #C5C4FF;">
     <nav>
         <div class="menu-container">
-            <div href="#menu" class="menu-icon">
+            <div id='menu-button' class="menu-icon">
                 <svg width="28" height="24" viewBox="0 0 28 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -31,11 +31,10 @@
                 </svg>
 
             </div>
-            <div class="menu">
+            <div id="menu" class="menu">
                 <ul>
-                    <li class="subitem">Art Work</li>
-                    <li class="subitem">Shows</li>
-                    <li class="subitem">About Me</li>
+                    <li><a href="index.html">Art Work</a></li>
+                    <li><a href="about.html">About Me</a></li>
                 </ul>
             </div>
         </div>
@@ -44,35 +43,107 @@
         <h1 class="header">Maguy Lee</h1>
         <p>Oil Paintings</p>
         <div class="images">
-            <img class="image" src="public/imgs/eric and shadow oil painting.jpeg"
+            <div class="img-container">
+                <img class="image" src="public/imgs/eric and shadow oil painting.jpeg"
                 alt="eric hugging shadow on the couch oil painting drawing">
-            <img class="image" src="public/imgs/tree oil painting.jpeg" alt="painting of trees in a forest">
-            <img class="image" src="public/imgs/shadow taiwan oil paintings.jpeg"
+                <div class="description">
+                    <p>Bonding 2022, 19 x 18</p>
+                </div>
+            </div>
+            <div class="img-container">    
+                <img class="image" src="public/imgs/tree oil painting.jpeg"
+                alt="painting of trees in a forest">
+                <div class="description">
+                    <p>Think and wonder 2021, 30 x 32</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="image" src="public/imgs/shadow taiwan oil paintings.jpeg"
                 alt="painting of taiwan and shadow is looking out to the water">
-            <img class="image" src="public/imgs/rock lil angel.jpeg" alt="an oil painting of an angel statue">
-            <img class="image" src="public/imgs/big big trees oil painting.jpeg"
+                <div class="description">
+                    <p>Green Island 2021, 23 x 19</p>
+                </div>
+            </div>
+            <div class="img-container">    
+                <img class="image" src="public/imgs/rock lil angel.jpeg"
+                alt="an oil painting of an angel statue">
+                <div class="description">
+                    <p>Tell me a story 2018, 23 x 17.5</p>
+                </div>
+            </div>    
+            <div class="img-container">
+                <img class="image" src="public/imgs/big big trees oil painting.jpeg"
                 alt="painting of trees in a forest looking from bottom up point of view">
-            <img class="image" src="public/imgs/first nation taiwan lady.jpeg" alt="3d desgins on the oil painting">
+                <div class="description">
+                    <p>Minoru Park 2016, 31 x 23</p>
+                </div>
+            </div>    
+            <div class="img-container">
+                <img class="image" src="public/imgs/first nation taiwan lady.jpeg"
+                alt="3d desgins on the oil painting">
+                <div class="description">
+                    <p>Paiwan Princess 2018, 19 x 15.5</p>
+                </div>
+            </div>
         </div>
 
         <p>Fashion Design</p>
         <div class="images">
-            <img class="image" src="public/imgs/fashion archor lady.jpeg" alt="a desgin for hunting lady with red hair">
-            <img class="image" src="public/imgs/fashion coustoms draws.jpeg" alt="painting of trees in a forest">
-            <img class="image" src="public/imgs/big glass new years lady.jpeg"
+            <div class="img-container">
+                <img class="image" src="public/imgs/fashion archor lady.jpeg"
+                alt="a desgin for hunting lady with red hair">
+                <div class="description">
+                    <p>Tibetans Fashion Illustration 2022, 12 x 9</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="image" src="public/imgs/fashion coustoms draws.jpeg" alt="painting of trees in a forest">
+                <div class="description">
+                    <p>Tibetans Fashion Illustration 2022, 12 x 9</p>
+                </div>
+            </div>     
+            <div class="img-container">
+                <img class="image" src="public/imgs/big glass new years lady.jpeg" 
                 alt="painting of taiwan and shadow is looking out to the water">
-            <img class="image" src="public/imgs/water color big head lady.jpeg" alt="an oil painting of an angel statue">
-            <img class="image" src="public/imgs/fashion prom blue dress.jpeg"
-                alt="painting of trees in a forest looking from bottom up point of view">
-            <img class="image" src="public/imgs/red new years fashion.jpeg" alt="3d desgins on the oil painting">
-            <img class="image" src="public/imgs/old fashion school art works.jpeg" alt="an oil painting of an angel statue">
-            <img class="image" src="public/imgs/old fashion school artwork blue.jpeg"
+                <div class="description">
+                    <p>New Years Desgin 2022, 15.5 x 11.5</p>
+                </div>
+            </div>   
+            <div class="img-container">
+                <img class="image" src="public/imgs/water color big head lady.jpeg"
                 alt="an oil painting of an angel statue">
+                <div class="description">
+                    <p>Paiwan Princess 2019, 27.5 x 19</p>
+                </div>
+            </div>           
+            <div class="img-container">
+                <img class="image" src="public/imgs/fashion prom blue dress.jpeg" alt="painting of trees in a forest looking from bottom up point of view">
+                <div class="description">
+                    <p>Design for Prom 2023, 10.5 x 14.5</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="image" src="public/imgs/red new years fashion.jpeg" alt="3d desgins on the oil painting">
+                <div class="description">
+                    <p>New Years Desgin 2022, 14 x 10</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="image" src="public/imgs/old fashion school art works.jpeg" alt="an oil painting of an angel statue">
+                <div class="description">
+                    <p>ESMOD Final Project 1995, 16.5 x 11.5</p>
+                </div>
+            </div>
+            <div class="img-container">
+                <img class="image" src="public/imgs/old fashion school artwork blue.jpeg" alt="an oil painting of an angel statue">
+                <div class="description">
+                    <p>ESMOD Final Project 1995, 16.5 x 11.5</p>
+                </div>
+            </div>        
         </div>
         <a href="/gallery.html">
-
         </a>
     </div>
 </body>
-
 </html>
+
